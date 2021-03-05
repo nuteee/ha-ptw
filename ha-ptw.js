@@ -31,8 +31,10 @@
 
     //console.log(rows[powerIndex].cells);
     //rows[powerIndex].cells[1].innerText = rows[powerIndex].cells[1].innerText + ', (' + ratio.toFixed(2) + ')'
-    rows[powerIndex].cells[1].innerHTML = rows[powerIndex].cells[1].innerHTML.replace('</strong>', '') + ', (' + ratio.toFixed(2) + ' PtW)</strong>';
-
+    if(!isNaN(ration)) {
+    	rows[powerIndex].cells[1].innerHTML = rows[powerIndex].cells[1].innerHTML.replace('</strong>', '') + ', (' + ratio.toFixed(2) + ' PtW)</strong>';
+	}
+	
     function getKeyText(tr) {
         return tr.cells[0].innerText;
     }
