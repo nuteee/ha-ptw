@@ -31,7 +31,7 @@
 
     //console.log(rows[powerIndex].cells);
     //rows[powerIndex].cells[1].innerText = rows[powerIndex].cells[1].innerText + ', (' + ratio.toFixed(2) + ')'
-    if(!isNaN(ration)) {
+    if(!isNaN(ratio)) {
     	rows[powerIndex].cells[1].innerHTML = rows[powerIndex].cells[1].innerHTML.replace('</strong>', '') + ', (' + ratio.toFixed(2) + ' PtW)</strong>';
 	}
 	
