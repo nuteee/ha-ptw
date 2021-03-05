@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         hasznaltauto power-to-weight ratio calculator
-// @namespace    http://tampermonkey.net/
-// @version      0.1
+// @namespace    https://github.com/nuteee/ha-ptw
+// @version      0.2
 // @description  Calculates the power-to-weight ration for the currently visible car
 // @author       Gergo Balkus
 // @match        https://www.hasznaltauto.hu/szemelyauto/*
